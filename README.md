@@ -13,3 +13,13 @@ The end-to-end pipeline includes:
 - Building a Power BI dashboard for executives to monitor vendor performance and make data-driven decisions
 
 This repository is structured and documented as a portfolio-quality, industry-style analytics project that I can walk through in interviews.
+
+### Large Files Note
+
+The files `sales.csv` and `purchases.csv` are too large to upload to GitHub (GitHub’s limit is 100MB).  
+In a real environment, these files would be obtained directly from the company’s data source or data lake.
+
+In this project:
+
+- I kept placeholder files inside `data_raw/`.
+- The ingestion script (`scripts/ingestion_db.py`) expects the actual files to be present locally.
